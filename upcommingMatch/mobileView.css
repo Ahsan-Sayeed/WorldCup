@@ -63,4 +63,9 @@
   .blog-thumbnail img {
     width: 80px;
   }
+
+  /* footer  */
+  .footer-help-section{
+    flex-direction: column;
+  }
 }
