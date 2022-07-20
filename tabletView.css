@@ -1,0 +1,65 @@
+@media only screen and (max-width: 768px) {
+  /* header section  */
+  .banner-text > h1 {
+    font-size: 35px;
+    line-height: 30px;
+  }
+  .banner-text > p {
+    height: 35px;
+    overflow: hidden;
+    font-size: 14px;
+  }
+  .banner-text button {
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+  .banner-image {
+    padding: 30px 10px 0;
+  }
+  .banner-image img {
+    width: 18rem;
+  }
+
+  /* navigation bar  */
+  nav {
+    background-color: transparent;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  }
+  nav button {
+    background-color: transparent;
+    border: 1px solid rgb(209, 207, 207);
+  }
+  /* blogs  */
+  .blogs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  article {
+    width: 42.4vw;
+  }
+  .blog-thumbnail img {
+    width: 42.4vw;
+  }
+  /* extra button*/
+  .viewAll-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 29px;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #dd0000;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 131px;
+    height: 47px;
+    margin: 50px auto;
+  }
+  /* footer  */
+  .footer-help-section {
+    margin: 3rem;
+  }
+}
